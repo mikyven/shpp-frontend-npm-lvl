@@ -9,7 +9,8 @@
     "dev:assets": "webpack --watch",
     "dev": "live-server --open=./public/ --host=localhost --watch=./public/",
     "build": "NODE_ENV=production webpack",
-    "prepare": "npx crlf --set=LF node_modules/.bin/live-server && husky install"
+    "prepare": "npx crlf --set=LF node_modules/.bin/live-server && husky install",
+    "precommit": "npm run lint-fix"
   },
   "devDependencies": {
     "@babel/core": "^7.20.7",
