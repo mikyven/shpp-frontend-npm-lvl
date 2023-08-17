@@ -5,6 +5,7 @@
   "main": "main.js",
   "author": "Esau Silva",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev:assets": "webpack --watch",
     "dev": "live-server --open=./public/ --host=localhost --watch=./public/",
